@@ -9,10 +9,14 @@ To set up the backend for the Social Media Platform, run the following command i
 ```bash
 npm i -g nodemon
 npm i express body-parser bcrypt cors dotenv gridfs-stream multer multer-gridfs-storage helmet morgan jsonwebtoken mongoose
+
 1.1 Global Installation:
+
 npm i -g nodemon
 Installs nodemon globally. It automatically restarts the server when changes are detected in the code, making development more efficient.
+
 1.2 Backend Dependencies:
+
 Package	Description
 express	A minimal and flexible Node.js web framework used for building the API.
 body-parser	Middleware to parse incoming request bodies (e.g., JSON, URL-encoded data).
@@ -25,4 +29,5 @@ multer-gridfs-storage	An extension of multer for storing uploaded files directly
 helmet	Helps secure Express apps by setting HTTP headers to prevent security vulnerabilities.
 morgan	HTTP request logger for debugging and monitoring API requests.
 jsonwebtoken	Used for generating and verifying JSON Web Tokens (JWT) for user authentication.
-mongoose	An Object Data Modeling (ODM) library for MongoDB, providing a schema-based solution for managing database models.```bash
+mongoose	An Object Data Modeling (ODM) library for MongoDB, providing a schema-based solution for managing database models.
+
