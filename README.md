@@ -18,8 +18,9 @@ npm i -g nodemon
 Installs nodemon globally to automatically restart the server on code changes.
 ```
 **2.2 Backend Dependencies:**
+```bash
 npm i express body-parser bcrypt cors dotenv gridfs-stream multer multer-gridfs-storage helmet morgan jsonwebtoken mongoose
-
+```
 Package                 | Description
 ------------------------|---------------------------------------------------------
 express                | A minimal and flexible Node.js web framework used for building the API.
