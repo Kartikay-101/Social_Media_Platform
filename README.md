@@ -8,16 +8,18 @@ The **Social Media Platform** is a full-stack web application built using the ME
 npm init -y
 ```
 ## **Step 2: Installing Required Packages**
-
-
+```bash
 npm i -g nodemon
 npm i express body-parser bcrypt cors dotenv gridfs-stream multer multer-gridfs-storage helmet morgan jsonwebtoken mongoose
-2.1 Global Installation:
-
+```
+**2.1 Global Installation:**
+```bash
 npm i -g nodemon
 Installs nodemon globally to automatically restart the server on code changes.
-
-2.2 Backend Dependencies:
+```
+**2.2 Backend Dependencies:**
+```bash
+npm i express body-parser bcrypt cors dotenv gridfs-stream multer multer-gridfs-storage helmet morgan jsonwebtoken mongoose
 
 Package                 | Description
 ------------------------|---------------------------------------------------------
@@ -33,3 +35,4 @@ helmet                 | Helps secure Express apps by setting HTTP headers to pr
 morgan                 | HTTP request logger for debugging and monitoring API requests.
 jsonwebtoken           | Used for generating and verifying JSON Web Tokens (JWT) for user authentication.
 mongoose               | An Object Data Modeling (ODM) library for MongoDB, providing a schema-based solution for managing database models.
+```
