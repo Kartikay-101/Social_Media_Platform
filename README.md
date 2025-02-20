@@ -25,4 +25,4 @@ multer-gridfs-storage	An extension of multer for storing uploaded files directly
 helmet	Helps secure Express apps by setting HTTP headers to prevent security vulnerabilities.
 morgan	HTTP request logger for debugging and monitoring API requests.
 jsonwebtoken	Used for generating and verifying JSON Web Tokens (JWT) for user authentication.
-mongoose	An Object Data Modeling (ODM) library for MongoDB, providing a schema-based solution for managing database models.
+mongoose	An Object Data Modeling (ODM) library for MongoDB, providing a schema-based solution for managing database models.```bash
